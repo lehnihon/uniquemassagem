@@ -1,23 +1,26 @@
-div#banner{
-	position: relative;
-	background-image: url("images/background.jpg");
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: top center;
-	padding-top:200px;
-
-}
-
 div#content{
 
 	section#descricao{
 		padding-top:80px;
 		padding-bottom:20px;
-		background-color:#f7f2e8;
+		background-color:#FFF;
 		text-align:center;
+
+		.box{
+			border:1px solid #abb1b8;
+			border-radius:20px;
+			padding-bottom:20px;
+
+			.img{
+				width:100%;
+				height:293px;
+				border-top-right-radius: 20px;
+				border-top-left-radius: 20px;
+				background-image: url("images/massagem.jpg");
+				background-size: cover;
+				background-repeat:no-repeat;
+			}
+		}
 
 		h2{
 			margin-bottom:25px;
@@ -28,105 +31,27 @@ div#content{
 		}
 
 		h3{
-			padding:20px 0px;
+			margin-top:20px;
+			margin-bottom:10px;
+			color:#61235f;
+		}
+
+		hr{
+			border-top:2px solid #61235f;
+			width:20%;
 		}
 
 		p{
 			font-size:16px;
-			padding-bottom:20px;
+			padding-bottom:0px;
 			line-height:1.6;
-		}
-	}
-
-	section#paginas{
-		padding-top:0px;
-		padding-bottom:100px;
-		text-align:center;
-
-		h1{
-			margin-bottom:45px;
+			color:#abb1b8;
 		}
 
-		h2,h3{
-			padding-bottom:20px;
+		a{
+			color:#61235f;
+			font-weight:bold;
 		}
-
-
-		.cardapio{
-			.menu-cardapio{
-				box-sizing: border-box;
-				width:100%;
-				min-height:30px;
-				margin-bottom:30px;
-
-				&:after{
-					display: block;
-				    content: "";
-				    clear: both;
-				}
-				.op-cardapio{
-					box-sizing: border-box;
-					float:left;
-					width:12.5%;
-					text-align:center;
-
-					a{
-						color:#950e19;
-						display:block;
-						font-weight:bold;
-					}
-					a.active{
-						color:#eb2d3c !important;
-					}
-					a:hover{
-						color:#eb2d3c;
-					}
-				}
-			}
-
-			.desc-cardapio{
-				article{
-					border-bottom:1px solid #afaba2;
-					padding:20px 0;
-					&:after{
-						display: block;
-					    content: "";
-					    clear: both;
-					}
-					h4{
-						margin:0;
-						margin-bottom:10px;
-					}
-
-					footer{
-						div{
-							float:left;
-							margin-right:10px;
-						}
-					}
-					.modal{
-						margin-top:1%;
-						.close{
-							position:absolute;
-							right:10px;
-							top:10px;
-							font-size:25px;
-							span{
-								color:#FFF !important;
-							}
-						}
-					}
-				}
-				article:last-child{
-					border-bottom:0;
-					padding-bottom:0px;
-				}
-			}
-		}
-	}
-
-	section.margin-delivery{
-		margin-bottom:0px !important;
 	}
 
 	section#sobre{
@@ -154,7 +79,7 @@ div#content{
 			line-height:1.7;
 		}
 
-		p.amarelo{
+		.alexb{
 			color:#faac11;
 		}
 
@@ -163,12 +88,18 @@ div#content{
 		}
 	}
 
-	section#compartilhe{
+	section#contato{
 		padding:100px 0;
-		background-color:#f7f2e8;
+		background-color:#FFF;
 
-		h2{
+		h3{
+			font-weight:bold;
+			color:#000;
 			margin-bottom:10px;
+		}
+
+		.fone{
+			font-size:28px;
 		}
 	}
 }

@@ -36,14 +36,14 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 
 	.alexa{
 		font-family: Alex Brush, Arial, "Helvetica Neue", Helvetica, sans-serif !important;
-		color:#f35353 !important;
+		color:#faac11;
 		padding:0 !important;
 		line-height:0.6 !important;
 		font-size:66px !important;
 	}
 	.alexb{
 		font-family: Alex Brush, Arial, "Helvetica Neue", Helvetica, sans-serif !important;
-		color:#faac11 !important;
+		color:#faac11;
 		padding:0 !important;
 		line-height:0.6 !important;
 		font-size:66px !important;
@@ -51,7 +51,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 
 	.alexc{
 		font-family: Alex Brush, Arial, "Helvetica Neue", Helvetica, sans-serif !important;
-		color:#950e19;
+		color:#61235f;
 		padding:0 !important;
 		line-height:0.6 !important;
 		font-size:66px !important;
@@ -70,34 +70,34 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	}
 
 	h1{
-		font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+		font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 		margin: 0;
 		font-size: 42px;
-		color:#31302f;
+		color:#61235f;
 	}
 
 	h2{
-		font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+		font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 		margin: 0;
 		font-size: 42px;
-		color:#31302f;
+		color:#61235f;
 	}
 
 	h3{
-		font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+		font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 		margin: 0;
 		font-size: 22px;
-		color:#31302f;
+		color:#61235f;
 	}
 
 	h4{
-		font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+		font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 		font-size: 18px;
 		color:#31302f;
 	}
 
 	h5{
-		font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+		font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 		font-size:14px;
 		color:#31302f;
 	}
@@ -255,6 +255,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	.btn-news:hover{
 		background-color:#FFF !important;
 		color:#ed4021 !important;
+	}
+
+	.roxo{
+		color:#662864;
 	}
 
 	@import 'header';

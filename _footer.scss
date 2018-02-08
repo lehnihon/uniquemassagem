@@ -1,7 +1,11 @@
 #footer{	
-	background-color:#7f161f;
+	background: linear-gradient(-90deg, #842b82, #562755);
 	color:#FFFFFF;
 	padding:60px 0;
+
+    a{
+        color:#FFF;
+    }
 
 	h3{
 		color:#FFF;
@@ -39,8 +43,8 @@
     }
 
     .redes_sociais_header .youtube{
-        background-image: url("images/redes-bot.jpg");
-        background-position: left,center;
+        background-image: url("images/redes-bot.png");
+        background-position: 5px,center;
         background-repeat:no-repeat;
         width:68px;
         height:68px;
@@ -48,8 +52,8 @@
     }
 
     .redes_sociais_header .instagram{
-        background-image: url("images/redes-bot.jpg");
-        background-position: -102px,center;
+        background-image: url("images/redes-bot.png");
+        background-position: -75px,center;
         background-repeat:no-repeat;
         width:68px;
         height:68px;
@@ -57,26 +61,17 @@
     }
 
     .redes_sociais_header .twitter{
-        background-image: url("images/redes-bot.jpg");
-        background-position: -205px,center;
+        background-image: url("images/redes-bot.png");
+        background-position: -160px,center;
         background-repeat:no-repeat;
         width:68px;
         height:68px;
         display:inline-block;       
     }
 
-    .redes_sociais_header .facebook{
-        background-image: url("images/redes-bot.jpg");
-        background-position: right,center;
-        background-repeat:no-repeat;
-        width:100px;
-        height:68px;
-        display:inline-block;       
-    }
-
 }
 div.copyrino{
-	background-color:#73121b;
+	background-color:#4a1c49;
 	text-align: center;
 	color: #FFF;
 	padding:40px 0;
