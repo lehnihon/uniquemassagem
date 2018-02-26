@@ -244,6 +244,54 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
         width: 31px;
         height: 31px;
         display: inline-block; }
+  #page #headerb {
+    border-top: 6px solid #61235f;
+    background-color: #8d2d8b; }
+    #page #headerb nav a {
+      color: #FFF; }
+    #page #headerb div.redes {
+      text-align: right;
+      position: absolute;
+      right: 0;
+      top: 30px; }
+      #page #headerb div.redes .redes_sociais_header {
+        margin-top: 15px;
+        margin-bottom: 10px;
+        height: 31px;
+        list-style: none;
+        display: inline-block;
+        width: 180px; }
+      #page #headerb div.redes .redes_sociais_header li {
+        margin-right: 10px; }
+      #page #headerb div.redes .redes_sociais_header li:hover {
+        opacity: 0.6;
+        filter: alpha(opacity=60);
+        /* For IE8 and earlier */ }
+      #page #headerb div.redes .redes_sociais_header a {
+        display: inline-block;
+        width: 31px;
+        height: 31px; }
+      #page #headerb div.redes .redes_sociais_header .youtube {
+        background-image: url("images/redes-top.png");
+        background-position: 8px,center;
+        background-repeat: no-repeat;
+        width: 31px;
+        height: 31px;
+        display: inline-block; }
+      #page #headerb div.redes .redes_sociais_header .instagram {
+        background-image: url("images/redes-top.png");
+        background-position: -47px,center;
+        background-repeat: no-repeat;
+        width: 31px;
+        height: 31px;
+        display: inline-block; }
+      #page #headerb div.redes .redes_sociais_header .twitter {
+        background-image: url("images/redes-top.png");
+        background-position: -100px,center;
+        background-repeat: no-repeat;
+        width: 31px;
+        height: 31px;
+        display: inline-block; }
   #page div#banner {
     position: relative; }
   #page .fixar {
@@ -277,14 +325,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       border: 1px solid #abb1b8;
       border-radius: 20px;
       padding-bottom: 20px; }
-      #page div#content section#descricao .box .img {
-        width: 100%;
-        height: 293px;
+      #page div#content section#descricao .box img {
         border-top-right-radius: 20px;
-        border-top-left-radius: 20px;
-        background-image: url("images/massagem.jpg");
-        background-size: cover;
-        background-repeat: no-repeat; }
+        border-top-left-radius: 20px; }
     #page div#content section#descricao h2 {
       margin-bottom: 25px; }
     #page div#content section#descricao .col-md-3, #page div#content section#descricao .col-md-4 {

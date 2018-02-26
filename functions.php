@@ -179,51 +179,6 @@ function register_post_type_fotos(){
 }
 add_action(	'init','register_post_type_fotos');
 
-function wporg_add_custom_box()
-{
-    add_meta_box(
-        'wporg_box_id',           // Unique ID
-        'Extras',  // Box title
-        'wporg_custom_box_html',  // Content callback, must be of type callable
-        'post'                   // Post type
-    );
-}
-add_action('add_meta_boxes', 'wporg_add_custom_box');
-
-function wporg_custom_box_html($post)
-{
-	$preco = get_post_meta($post->ID, 'preco', true);
-	$video = get_post_meta($post->ID, 'video', true);
-    ?>
-	    <p>
-	    	<label>Preço do Produto: </label>
-		    <input style="width: 100%" type="text" name="preco" value="<?php echo  esc_html($preco) ?>">
-	    </p>
-	    <p>
-	    	<label>Link do Vídeo: </label>
-	    	<textarea style="width: 100%" name="video"><?php echo $video; ?></textarea>
-	    </p>
-    <?php
-}
-
-function wporg_save_postdata($post_id)
-{
-	if (array_key_exists('preco', $_POST)) {
-        update_post_meta(
-            $post_id,
-            'preco',
-            sanitize_text_field($_POST['preco'])
-        );
-    }
-    if (array_key_exists('video', $_POST)) {
-        update_post_meta(
-            $post_id,
-            'video',
-            $_POST['video']
-        );
-    }
-}
-add_action('save_post', 'wporg_save_postdata');
 
 
 /**

@@ -72,6 +72,77 @@
     }
 }
 
+#headerb{
+    border-top:6px solid #61235f;
+    background-color:#8d2d8b;
+
+    nav{
+        a{
+            color:#FFF;
+        }
+    }
+
+    div.redes{
+        text-align: right;
+        position:absolute;
+        right:0;
+        top:30px;
+        .redes_sociais_header{
+            margin-top: 15px;
+            margin-bottom: 10px;
+            height: 31px;
+            list-style:none;
+            display: inline-block;
+            width: 180px;
+
+        }
+
+        .redes_sociais_header li{
+            margin-right:10px;
+        }
+
+        .redes_sociais_header li:hover{
+            opacity: 0.6;
+            filter: alpha(opacity=60); /* For IE8 and earlier */
+        }
+
+        .redes_sociais_header a{
+            display: inline-block;
+            width:31px;
+            height:31px;
+        }
+
+        .redes_sociais_header .youtube{
+            background-image: url("images/redes-top.png");
+            background-position: 8px,center;
+            background-repeat:no-repeat;
+            width:31px;
+            height:31px;
+            display:inline-block;       
+        }
+
+        .redes_sociais_header .instagram{
+            background-image: url("images/redes-top.png");
+            background-position: -47px,center;
+            background-repeat:no-repeat;
+            width:31px;
+            height:31px;
+            display:inline-block;       
+        }
+
+        .redes_sociais_header .twitter{
+            background-image: url("images/redes-top.png");
+            background-position: -100px,center;
+            background-repeat:no-repeat;
+            width:31px;
+            height:31px;
+            display:inline-block;       
+        }
+
+
+    }
+}
+
 div#banner{
     position: relative;
 
