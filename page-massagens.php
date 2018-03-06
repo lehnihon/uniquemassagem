@@ -6,7 +6,7 @@ get_header(); ?>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 text-center wow fadeInUp">
-					<h1 class="alexa">Estética</h1>
+					<h1 class="alexa">Massagens</h1>
 				</div>
 			</div><br><br>
 

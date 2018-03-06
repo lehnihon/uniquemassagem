@@ -179,6 +179,13 @@ function register_post_type_fotos(){
 }
 add_action(	'init','register_post_type_fotos');
 
+function get_the_twitter_excerpt(){
+	$excerpt = get_the_content();
+	$excerpt = strip_shortcodes($excerpt);
+	$excerpt = strip_tags($excerpt);
+	$the_str = substr($excerpt, 0, 140)." [...]";
+	return $the_str;
+}
 
 
 /**

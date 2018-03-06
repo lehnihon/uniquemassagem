@@ -142,9 +142,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   #page .input-contato {
     background-color: #FFF;
     text-align: left;
-    border: 0;
+    border: 1px solid #abb1b8;
     width: 100%;
-    border-radius: 50px;
     margin-bottom: 10px;
     padding: 5px 20px; }
   #page .input-contato::placeholder {
@@ -347,6 +346,37 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     #page div#content section#descricao a {
       color: #61235f;
       font-weight: bold; }
+  #page div#content section#detalhes {
+    padding-top: 80px;
+    padding-bottom: 20px;
+    background-color: #FFF; }
+    #page div#content section#detalhes img {
+      border-top-right-radius: 20px;
+      border-top-left-radius: 20px; }
+    #page div#content section#detalhes h3 {
+      margin-top: 20px;
+      margin-bottom: 10px;
+      color: #61235f; }
+    #page div#content section#detalhes hr {
+      border-top: 2px solid #61235f;
+      width: 15%;
+      text-align: left;
+      margin-left: 0; }
+    #page div#content section#detalhes .col-md-7 {
+      padding-left: 35px; }
+  #page div#content section#sobre-detalhes {
+    padding-top: 80px;
+    padding-bottom: 20px;
+    background-color: #FFF; }
+    #page div#content section#sobre-detalhes h1 {
+      margin-bottom: 25px; }
+    #page div#content section#sobre-detalhes p {
+      font-size: 16px;
+      line-height: 1.7; }
+    #page div#content section#sobre-detalhes .alexb {
+      color: #faac11; }
+    #page div#content section#sobre-detalhes img {
+      margin-bottom: 20px; }
   #page div#content section#sobre {
     padding: 160px 0;
     background-image: url("images/background2.jpg");
@@ -371,6 +401,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       color: #faac11; }
     #page div#content section#sobre img {
       margin-bottom: 20px; }
+  #page div#content section#fale-conosco {
+    padding-top: 80px;
+    padding-bottom: 20px;
+    background-color: #FFF; }
   #page div#content section#contato {
     padding: 100px 0;
     background-color: #FFF; }
